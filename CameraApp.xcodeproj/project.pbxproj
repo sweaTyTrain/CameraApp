@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A63437132B14B7DA00A717C2 /* myModelReal.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = A63437122B14B7DA00A717C2 /* myModelReal.mlpackage */; };
+		A63437152B14DB9500A717C2 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63437142B14DB9500A717C2 /* Util.swift */; };
 		A67E03102B08EA8800209D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E030F2B08EA8800209D99 /* AppDelegate.swift */; };
 		A67E03122B08EA8800209D99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E03112B08EA8800209D99 /* SceneDelegate.swift */; };
 		A67E03142B08EA8800209D99 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E03132B08EA8800209D99 /* CameraViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A63437122B14B7DA00A717C2 /* myModelReal.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = myModelReal.mlpackage; sourceTree = "<group>"; };
+		A63437142B14DB9500A717C2 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		A67E030C2B08EA8800209D99 /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67E030F2B08EA8800209D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A67E03112B08EA8800209D99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				A67E031A2B08EA8900209D99 /* LaunchScreen.storyboard */,
 				A67E031D2B08EA8900209D99 /* Info.plist */,
 				A67E03232B08EBD500209D99 /* PreviewView.swift */,
+				A63437122B14B7DA00A717C2 /* myModelReal.mlpackage */,
+				A63437142B14DB9500A717C2 /* Util.swift */,
 			);
 			path = CameraApp;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67E03142B08EA8800209D99 /* CameraViewController.swift in Sources */,
+				A63437152B14DB9500A717C2 /* Util.swift in Sources */,
 				A67E03242B08EBD500209D99 /* PreviewView.swift in Sources */,
+				A63437132B14B7DA00A717C2 /* myModelReal.mlpackage in Sources */,
 				A67E03102B08EA8800209D99 /* AppDelegate.swift in Sources */,
 				A67E03122B08EA8800209D99 /* SceneDelegate.swift in Sources */,
 			);
